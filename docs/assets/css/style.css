@@ -1,0 +1,168 @@
+/* FONTS */
+h1 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 23px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+}
+h3 {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 23px;
+}
+p,
+a,
+ul,
+span {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+}
+blockquote {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 23px;
+}
+
+code, pre {
+	font-family: Consolas, monaco, monospace;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+/* END OF FONTS */
+body {
+    background: #E6E6E6;
+}
+
+a {
+	text-decoration: none;
+	color: #0070BF;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+header {
+    padding: 2rem;
+    background: #0096ff;
+    text-align: center;
+    border-bottom: 2px solid #0070BF;
+}
+
+h1.title {
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 30px;
+}
+p.subtitle {
+    color: #f1f1f1;
+    font-size: 12px;
+}
+
+p {
+	word-wrap: normal;
+}
+
+pre {
+	color: #f1f1f1;
+	padding: 2rem;
+	background: #545454;
+	border-radius: 10px;
+	word-wrap: normal;
+}
+
+button.download-button {
+    background: #f1f1f1;
+    border: 1px solid #0070BF;
+    border-radius: 10px;
+    color: #0096ff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+}
+
+button.download-button:hover {
+    background: #0070BF;
+    border-color: #0096ff;
+    color: #f1f1f1;
+    transition: all 500ms linear;
+}
+
+.content {
+    background: #ffffff;
+    padding: 2rem;
+}
+
+
+footer {
+	padding: 2rem;
+}
+
+.link-top {
+	text-align: right;
+}
+
+/* Modal */
+.hidden {
+	display: none;
+}
+
+.back-draft {
+	z-index: 99;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	position: fixed;
+}
+
+.modal {
+	z-index: 100;
+	width: 80%;
+	margin: 10% auto;
+	background: #F1F1F1;
+	padding: 1rem;
+}
+
+.modal-title {
+	border-bottom: 1px solid #E6E6E6;
+	margin-bottom: 10px;
+}
+
+.modal-title span {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 23px;
+}
+
+.donation-box {
+	background: #E6E6E6;
+	padding: 1rem;
+	border-radius: 10px;
+}
+
+.donation-box span,
+.donation-box p {
+	font-weight: bold;
+	font-style: italic;
+}
