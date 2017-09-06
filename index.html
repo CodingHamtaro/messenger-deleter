@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+    <head>
+        <title>Messenger Deleter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ogp tags -->
+        <meta property="og:title" content="Messenger Deleter">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <!-- end of ogp tags -->
+        <!-- twitter card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@CodingHamtaro">
+        <meta name="twitter:title" content="Messenger Deleter">
+        <meta name="twitter:description" content="An automated tool to do the tedious task of deleting messages on your Facebook account.">
+        <meta name="twitter:image" content="">
+        <!-- end of twitter card -->
+        <!-- css lib -->
+        <link rel="stylesheet" href="assets/css/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <!-- personalized css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- js lib -->
+    </head>
+    <body>
+        <header id="header">
+            <div class="row center-xs">
+                <h1 class="title">Messenger Deleter</h1>
+            </div>
+            <div class="row center-xs">
+                <p class="subtitle">
+                    AUTOMATED SOLUTION TO DELETE YOUR UNWANTED FACEBOOK'S CONVERSATIONS
+                </p>
+            </div>
+            <div class="row center-xs">
+                <button class="download-button">
+                    <i class="fa fa-download" aria-hidden="true"></i> Download Now Free
+                </button>
+            </div>
+        </header>
+        <section>
+            <div class="content">
+                <div class="row">
+                    <div class="row between-lg">
+                        <div class="col-xs-12 col-lg-2"></div>
+                        <div class="col-xs-12 col-lg-8">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <p>
+                                        Do you want to delete your old conversations with your friends on Facebook? No time to scroll down all the way to history to remove nasty conversations? <b>MessengerDeleter</b> offers you an automated solution for these kind of problems.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <h3>HOW IT WORKS?</h3>
+                                    <p>
+                                        The <b>MessengerDeleter</b> leverage the capability of <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> headless browser - meaning its approach is automated, instead that you have to delete your messages manually - an automated bot will do the job for you. The application will run on background so it won't distract you visually.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs">
+                                    <h3>INSTALLATION</h3>
+                                    <p>
+                                        To get started, the <a href="http://phantomjs.org/" target="_blank">PhantomJS</a> must be installed first on your system. You could follow the <a href="http://phantomjs.org/download.html" target="_blank">instructions found here</a>.
+                                    </p>
+                                    <p>
+                                        The phantomjs must be found as an executable on your System's PATH. For more information on how to do it, please check the <a href="http://attester.ariatemplates.com/usage/phantom.html" target="_blank">instructions here</a>.
+                                    </p>
+                                    <p>
+                                        After the successful installation of PhantomJS, click the download button above and select the correct build for your system.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs">
+                                    <h3>USAGE</h3>
+                                    <p>
+                                        Extract the compressed file, and open the <b>settings.json</b>. You must not alter the json object or else the tool will not run properly.
+                                    </p>
+                                    <p>
+                                        You must input your Facebook's username and password under the <b>account</b> object.
+                                    </p>
+                                    <p>
+                                        There is an optional object for the tool. Under the <b>messages</b> object, there is a part where you put your friends' exact names on Facebook to exclude their conversations with you in the process. You should put their names under <b>excluded</b> object. For multiple names, it should be comma-separated.
+                                    </p>
+                                    <p>
+                                        Example below:
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <pre class="col-xs-12">
+                                    <code>
+{
+    "account": {
+        "username": "your_username",
+        "password": "your_password"
+    },
+    "messages": {
+        "excluded": [
+            "Your friend#1 name here",
+            "Your friend#2 name here"
+        ]
+    }
+}
+                                    </code>
+                                </pre>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs">
+                                    <p>
+                                        After filling out the <b>settings.json</b> file, you may now run the <b>messengerdeleter</b> tool.
+                                    </p>
+                                    <p>
+                                        Note: The success and speed of the process will depends from your internet connection.
+                                    </p>
+                                    <p>
+                                        For <b>Windows</b> users, you should simply click the <b>messenegerdeleter.exe</b> file.
+                                    </p>
+                                    <p>
+                                        For <b>Linux</b> users, just simple run the executable file.
+                                    </p>
+                                    <p>
+                                        Then wait for the process to complete.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <footer>
+            <div class="row between-lg">
+                <div class="col-xs-12 col-lg-2"></div>
+                <div class="col-xs-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-xs-6 start">
+                            <a href="https://twitter.com/CodingHamtaro" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> @CodingHamtaro</a>
+                        </div>
+                        <div class="col-xs-6 end link-top">
+                            <a href="#header"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to Top</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-2"></div>
+            </div>
+        </footer>
+        <!-- js -->
+        <!-- modal -->
+        <div class="back-draft hidden">
+            <div class="modal hidden">
+                <div class="modal-title">
+                    <div class="row">
+                        <div class="col-xs-10">
+                            <span>Download</span>
+                        </div>
+                        <div class="col-xs-2 end-xs">
+                            <a href="#" id="modal-close-button"><i class="fa fa-times" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- downloads -->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <ul>
+                                <li>
+                                    <a href="/dist/win32-messengerdeleter.zip" download>Windows 32-bit</a>
+                                </li>
+                                <li>
+                                    <a href="/dist/win64-messengerdeleter.zip" download>Windows 64-bit</a>
+                                </li>
+                                <li>
+                                    <a href="/dist/linux32-messengerdeleter.zip" download>Linux 32-bit</a>
+                                </li>
+                                <li>
+                                    <a href="/dist/linux64-messengerdeleter.zip" download>Linux 64-bit</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end of downloads -->
+                        <!-- donation -->
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="donation-box">
+                                <span><i class="fa fa-heart-o" aria-hidden="true"></i> Donations Are Welcome!</span>
+                                <p>
+                                    Make a donation to support the dev to continue the development of awesome tools! <i class="fa fa-smile-o" aria-hidden="true"></i>
+                                </p>
+                                <div class="row center-xs center-md center-lg">
+                                    <!-- paypal donation -->
+                                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="P8NJ4PZ7L7NUJ">
+                                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                    </form>                                    
+                                    <!-- end of paypal donation -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of donation -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+        <!-- end of modal -->
+        <script src="assets/js/app.js"></script>
+    </body>
+</html>

@@ -1,9 +1,12 @@
 {
     "account": {
-        "username": "",
-        "password": ""
+        "username": "your_username",
+        "password": "your_password"
     },
     "messages": {
-        "excluded": []
+        "excluded": [
+            "Your friend's name here",
+            "Your friend's name here"
+        ]
     }
 }
