@@ -1,5 +1,4 @@
 package: .
 import:
-- package: github.com/common-nighthawk/go-figure
 - package: github.com/sclevine/agouti
   version: ~2.0.0

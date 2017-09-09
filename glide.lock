@@ -1,0 +1,12 @@
+hash: dd2df121f212d92ca82b76458a8fc79c77c6f7334b63da8ed94d1be0d109888a
+updated: 2017-09-09T15:40:22.689252892+08:00
+imports:
+- name: github.com/sclevine/agouti
+  version: b920a9cc753368454c642011939e1d7ec58e0024
+  subpackages:
+  - api
+  - api/internal/bus
+  - api/internal/service
+  - internal/element
+  - internal/target
+testImports: []
